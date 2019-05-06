@@ -28,7 +28,6 @@ setup(
     ],
     install_requires=[
         'easyevent',
-        'python-gst0.10',
         'pygobject',
     ]
 )
