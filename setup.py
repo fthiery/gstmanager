@@ -23,9 +23,12 @@ setup(
         'gstmanager/sbins/sources',
         'gstmanager/profiles'
     ],
+    dependency_links=[
+        "git+https://github.com/UbiCastTeam/easyevent.git#egg=easyevent"
+    ],
     install_requires=[
-        'python-easyevent',
+        'easyevent',
         'python-gst0.10',
-        'python-gobject',
+        'pygobject',
     ]
 )
